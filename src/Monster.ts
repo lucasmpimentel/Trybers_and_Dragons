@@ -30,4 +30,8 @@ export default class Monster implements SimpleFighter {
   get strength(): number {
     return this._strength;
   }
+
+  set gambiDragon(life: number) {
+    this._lifePoints = life;
+  }
 }
